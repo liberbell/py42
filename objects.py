@@ -9,3 +9,7 @@ print(type(listy))
 stringy = "Hi"
 print(stringy)
 print(type(stringy))
+
+import folium
+azores = folium.Map(location=(38, -27), zoom_start=6)
+print(azores)
