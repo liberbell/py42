@@ -13,4 +13,5 @@ def area(x):
 print(a)
 print(type(a))
 print(b)
+print(type(b))
 print(area(3))
