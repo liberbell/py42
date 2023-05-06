@@ -5,7 +5,7 @@ b = 5
 c = [6, 7, 8]
 
 d = "Hi"
-"hello"
+print("hello")
 
 def area(x):
     return x**2
