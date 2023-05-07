@@ -19,4 +19,7 @@ point2 = Point(11, 21)
 point3 = Point(12, 22)
 point4 = Point(13, 23)
 
+number1 = int("2")
+
 print(type(point1))
+print(type(number1))
