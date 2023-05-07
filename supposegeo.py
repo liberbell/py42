@@ -23,3 +23,5 @@ number1 = int("2")
 
 print(type(point1))
 print(type(number1))
+
+from geometry import PPoint
