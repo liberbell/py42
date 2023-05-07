@@ -12,5 +12,9 @@ print(type(stringy))
 
 import folium
 azores = folium.folium.Map(location=(38, -27), zoom_start=6)
+azores
 print(azores)
 print(type(azores))
+
+# print(int(x=5))
+# int(x=5)
