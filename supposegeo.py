@@ -33,3 +33,6 @@ print(ipaddress.__file__)
 myip = ipaddress.IPv4Address("1.1.1.1")
 print(myip)
 print(type(myip))
+
+print(point1)
+print(number1)
