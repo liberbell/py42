@@ -24,6 +24,6 @@ number1 = int("2")
 print(type(point1))
 print(type(number1))
 
-from geometry import PPoint
+from Geometry import PPoint
 point5 = PPoint(100, 200)
 print(type(point5))
