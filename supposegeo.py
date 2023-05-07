@@ -25,3 +25,5 @@ print(type(point1))
 print(type(number1))
 
 from geometry import PPoint
+point5 = PPoint(100, 200)
+print(type(point5))
