@@ -13,3 +13,8 @@ print(type(number1))
 class House:
     def __init__(self, wall_area):
         self.wall_area = wall_area
+
+point1 = Point(10, 20)
+point2 = Point(11, 21)
+point3 = Point(12, 22)
+point4 = Point(13, 23)
