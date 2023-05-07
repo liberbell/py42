@@ -5,4 +5,4 @@ class Point:
         self.y = y
 
 point1 = Point(10, 20)
-print(point1)
+print(type(point1))
