@@ -27,3 +27,8 @@ print(type(number1))
 from Geometry import Point
 point5 = Point(100, 200)
 print(type(point5))
+
+import ipaddress
+myip = ipaddress.IPv4Address("1.1.1.1")
+print(myip)
+print(type(myip))
