@@ -18,3 +18,5 @@ point1 = Point(10, 20)
 point2 = Point(11, 21)
 point3 = Point(12, 22)
 point4 = Point(13, 23)
+
+print(type(point1, point2, point3, point4))
