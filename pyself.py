@@ -13,4 +13,4 @@ class Point2:
     
     def __init__(this_object, x, y):
         this_object.x = x
-        this_object.y = y
+        this_object.y = y5
