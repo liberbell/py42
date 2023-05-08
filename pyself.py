@@ -6,3 +6,5 @@ class Point:
 
 point1 = Point(3, 4)
 point2 = Point(6, 7)
+
+print(point1.x)
