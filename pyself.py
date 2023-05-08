@@ -4,4 +4,5 @@ class Point:
         self.x = x
         self.y = y
 
-    Point(10, 20)
+point1 = Point(3, 4)
+point2 = Point(6, 7)
