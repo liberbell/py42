@@ -19,3 +19,9 @@ class Point2:
 point3 = Point2(3, 4)
 
 print(point3.x)
+
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
