@@ -9,3 +9,5 @@ class Point:
             return True
         else:
             return False
+
+point1 = Point(3, 5)
