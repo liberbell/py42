@@ -22,4 +22,4 @@ class Point:
             return False
         
 point2 = Point(3, 4)
-print(point2)
+print(point2.falls_in_rectangle((5, 6), (7, 9)))
