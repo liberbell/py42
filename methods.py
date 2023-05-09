@@ -24,4 +24,4 @@ class Point:
 point2 = Point(3, 4)
 print(point2.point_in_rec((5, 6), (7, 9)))
 
-print(Point(3, 4).point_in_rec(1, 1), (6, 6))
+print(Point(3, 4).point_in_rec((1, 1), (6, 6)))
