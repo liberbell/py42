@@ -15,11 +15,13 @@ class Point:
         self.x = x
         self.y = y
 
-    def falls_in_rectangle(self, lowleft, upright):
+    def point_in_rec(self, lowleft, upright):
         if lowleft[0] < self.x < upright[0] and lowleft[1] < self.y < upright[1]:
             return True
         else:
             return False
         
 point2 = Point(3, 4)
-print(point2.falls_in_rectangle((5, 6), (7, 9)))
+print(point2.point_in_rec((5, 6), (7, 9)))
+
+print(Point(3, 4).point_in_rec(1, 1), (6, 6))
