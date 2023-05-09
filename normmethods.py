@@ -1,6 +1,6 @@
 class Point:
     def __init__(self, x, y):
-        print("Hi! I am __init__!")
+        print("Hi! I am __init__!no")
         self.x = x
         self.y = y
 
@@ -12,3 +12,5 @@ class Point:
             return False
 
 point1 = Point(3, 5)
+
+print(point1.point_in_rec((1, 3), (8, 9)))
