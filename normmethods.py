@@ -1,5 +1,6 @@
 class Point:
     def __init__(self, x, y):
+        print("Hi! I am __init__!")
         self.x = x
         self.y = y
 
