@@ -6,3 +6,5 @@ class Point:
 
 point1 = Point(7, 8)
 print(point1.x, point1.y)
+
+print("john".count("j"))
