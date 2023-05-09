@@ -4,8 +4,8 @@
 #         self.x = x
 #         self.y = y
 
-point1 = Point(7, 8)
-print(point1.x, point1.y)
+# point1 = Point(7, 8)
+# print(point1.x, point1.y)
 
 print("john".count("j"))
 print("john".capitalize())
@@ -20,3 +20,6 @@ class Point:
             return True
         else:
             return False
+        
+point2 = Point(3, 4)
+print(point2)
