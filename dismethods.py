@@ -15,4 +15,6 @@ class Point:
         return ((self.x - x) ** 2 + (self.y - y) ** 2) ** 0.5
     
 point1 = Point(1, 1)
+point2 = Point(2, 2)
 print(point1.distance_from_point(3, 3))
+print(point1.distance_from_point(point2))
