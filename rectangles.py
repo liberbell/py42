@@ -11,7 +11,7 @@ class Point:
             return False
         
 point1 = Point(6, 7)
-print(point1.falls_in_rectangle((5, 6), (7, 9)))
+# print(point1.falls_in_rectangle((5, 6), (7, 9)))
 
 class Rectangle:
     def __init__(self, lowleft, upright):
