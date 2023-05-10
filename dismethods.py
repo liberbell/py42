@@ -11,5 +11,5 @@ class Point:
         else:
             return False
         
-    def distance_from_point(self, x, y)
+    def distance_from_point(self, x, y):
         return ((self.x - x) ** 2 + (self.y - y) ** 2) ** 0.5
