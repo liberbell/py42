@@ -20,3 +20,5 @@ class Rectangle:
 
 point = Point(6, 7)
 rectanglex = Rectangle(Point(5, 6), Point(7, 9))
+
+print(point.falls_in_rectangle(rectanglex))
