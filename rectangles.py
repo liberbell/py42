@@ -9,3 +9,6 @@ class Point:
             return True
         else:
             return False
+        
+point1 = Point(6, 7)
+print(point1.falls_in_rectangle((5, 6), (7, 9)))
