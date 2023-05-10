@@ -19,3 +19,4 @@ class Rectangle:
         self.upright = upright
 
 point = Point(6, 7)
+rectanglex = Rectangle(Point(5, 6), Point(7, 9))
