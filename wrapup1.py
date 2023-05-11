@@ -19,3 +19,7 @@ class Rectangle:
 
 from random import randint
 randint(0, 9)
+
+rectangle = Rectangle(
+    Point(randint(0, 9), randint(0, 9)), Point(randint(10, 19), randint(10, 19))
+)
