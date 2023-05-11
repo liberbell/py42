@@ -29,3 +29,6 @@ print("Rectangle cordinates: ",
       rectangle.lowleft.y, "and",
       rectangle.upright.x, " ",
       rectangle.upright.y)
+
+user_point = Point(float(input("Guess X: ")),
+                   float(input("Guess Y: ")))
