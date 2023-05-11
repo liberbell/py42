@@ -32,3 +32,5 @@ print("Rectangle cordinates: ",
 
 user_point = Point(float(input("Guess X: ")),
                    float(input("Guess Y: ")))
+
+print("Your input was inside rectangle: ", user_point.falls_in_rectangle(rectangle))
