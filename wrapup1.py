@@ -17,6 +17,10 @@ class Rectangle:
         self.lowleft = lowleft
         self.upright = upright
 
+    def area(self):
+        return (self.upright.x - self.lowleft.x) * \
+               (self.upright.y - self.lowleft.y)
+
 from random import randint
 randint(0, 9)
 
