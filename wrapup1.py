@@ -37,4 +37,7 @@ print("Rectangle cordinates: ",
 user_point = Point(float(input("Guess X: ")),
                    float(input("Guess Y: ")))
 
+user_area = Point(input("Guess rectangle area: "))
+
 print("Your input was inside rectangle: ", user_point.falls_in_rectangle(rectangle))
+print("Your area was off by: ", rectangle.area() - user_area)
