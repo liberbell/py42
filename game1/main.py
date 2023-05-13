@@ -23,8 +23,8 @@ class Rectangle:
         return (self.point2.x - self.point1.x) * \
                (self.point2.y - self.point1.y)
     
-rectangle = Rectangle(Point(randint(0, 9), randint(0, 9)),
-                      Point(randint(10, 19), randint(10, 19)))
+rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
+                      Point(randint(10, 400), randint(10, 400)))
 
 print("Rectangle cordinates: ",
       rectangle.point1.x, ",",
