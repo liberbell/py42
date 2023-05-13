@@ -24,7 +24,10 @@ class Rectangle:
         return (self.point2.x - self.point1.x) * \
                (self.point2.y - self.point1.y)
     
-# class GuiRectangle:
+class GuiRectangle(Rectangle):
+    
+    def draw(self):
+        
 
     
 rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
