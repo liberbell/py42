@@ -28,7 +28,7 @@ rectangle = Rectangle(Point(randint(0, 9), randint(0, 9)),
 
 print("Rectangle cordinates: ",
       rectangle.point1.x, ",",
-      rectangle.point2.y, "and",
+      rectangle.point1.y, "and",
       rectangle.point2.x, ",",
       rectangle.point2.y)
 
