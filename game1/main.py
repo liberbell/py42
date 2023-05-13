@@ -1,4 +1,5 @@
 from random import randint
+from turtle import Turtle
 
 class Point:
 
@@ -22,6 +23,9 @@ class Rectangle:
     def area(self):
         return (self.point2.x - self.point1.x) * \
                (self.point2.y - self.point1.y)
+    
+# class GuiRectangle:
+
     
 rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
                       Point(randint(10, 400), randint(10, 400)))
