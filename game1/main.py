@@ -22,3 +22,6 @@ class Rectangle:
     def area(self):
         return (self.point2.x - self.point1.x) * \
                (self.point2.y - self.point1.y)
+    
+rectangle = Rectangle(Point(randint(0, 9), randint(0, 9)),
+                      Point(randint(10, 19), randint(10, 19)))
