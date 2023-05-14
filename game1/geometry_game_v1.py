@@ -31,7 +31,7 @@ class GuiRectangle(Rectangle):
         canvas.goto(self.point1.x, self.point1.y)
 
         canvas.pendown()
-        canvas.forward(100)
+        canvas.forward(self.point2.x - self.point1.x)
         canvas.left(90)
         canvas.forward(200)
         canvas.left(90)
