@@ -42,11 +42,11 @@ class GuiRectangle(Rectangle):
 
         turtle.done()
 
-Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),Point(randint(10, 400), randint(10, 400)))
+# Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),Point(randint(10, 400), randint(10, 400)))
 
-myturtle = turlle.Turtle()
-Gui_rectangle.draw(canvas=myturtle)
-pirnt(Gui_rectangle.area())
+# myturtle = turlle.Turtle()
+# Gui_rectangle.draw(canvas=myturtle)
+# pirnt(Gui_rectangle.area())
     
 # rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
 #                       Point(randint(10, 400), randint(10, 400)))
