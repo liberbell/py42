@@ -27,18 +27,18 @@ class Rectangle:
 class GuiRectangle(Rectangle):
     
     def draw(self, canvas):
-        myturtle.penup()
-        myturtle.goto(50, 75)
+        canvas.penup()
+        canvas.goto(50, 75)
 
-        myturtle.pendown()
-        myturtle.forward(100)
-        myturtle.left(90)
-        myturtle.forward(200)
-        myturtle.left(90)
+        canvas.pendown()
+        canvas.forward(100)
+        canvas.left(90)
+        canvas.forward(200)
+        canvas.left(90)
 
-        myturtle.forward(100)
-        myturtle.left(90)
-        myturtle.forward(200)
+        canvas.forward(100)
+        canvas.left(90)
+        canvas.forward(200)
 
         turtle.done()
 
