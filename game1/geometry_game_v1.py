@@ -28,7 +28,7 @@ class GuiRectangle(Rectangle):
     
     def draw(self, canvas):
         canvas.penup()
-        canvas.goto(50, 75)
+        canvas.goto(self.point1.x, self.point1.y)
 
         canvas.pendown()
         canvas.forward(100)
@@ -44,7 +44,7 @@ class GuiRectangle(Rectangle):
 
 Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),Point(randint(10, 400), randint(10, 400)))
 
-myturtle = tutlle.Turtle()
+myturtle = turlle.Turtle()
 Gui_rectangle.draw(canvas=myturtle)
     
 # rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
