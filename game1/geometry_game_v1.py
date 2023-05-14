@@ -48,7 +48,7 @@ class GuiRectangle(Rectangle):
 # Gui_rectangle.draw(canvas=myturtle)
 # pirnt(Gui_rectangle.area())
     
-rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
+rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),
                       Point(randint(10, 400), randint(10, 400)))
 
 print("Rectangle cordinates: ",
