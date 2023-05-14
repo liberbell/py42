@@ -48,17 +48,17 @@ class GuiRectangle(Rectangle):
 # Gui_rectangle.draw(canvas=myturtle)
 # pirnt(Gui_rectangle.area())
     
-# rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
-#                       Point(randint(10, 400), randint(10, 400)))
+rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
+                      Point(randint(10, 400), randint(10, 400)))
 
-# print("Rectangle cordinates: ",
-#       rectangle.point1.x, ",",
-#       rectangle.point1.y, "and",
-#       rectangle.point2.x, ",",
-#       rectangle.point2.y)
+print("Rectangle cordinates: ",
+      rectangle.point1.x, ",",
+      rectangle.point1.y, "and",
+      rectangle.point2.x, ",",
+      rectangle.point2.y)
 
-# user_point = Point(float(input("Guess x: ")), float(input("Guess y: ")))
-# user_area = float(input("Guess rectangle area: "))
+user_point = Point(float(input("Guess x: ")), float(input("Guess y: ")))
+user_area = float(input("Guess rectangle area: "))
 
-# print("Your point was inside rectangle: ", user_point.falls_in_rectangle(rectangle))
-# print("Your area was off by: ", rectangle.area() - user_area)
+print("Your point was inside rectangle: ", user_point.falls_in_rectangle(rectangle))
+print("Your area was off by: ", rectangle.area() - user_area)
