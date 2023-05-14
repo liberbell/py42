@@ -28,8 +28,7 @@ class GuiRectangle(Rectangle):
     
     def draw(self, canvas):
 
-Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),
-                      Point(randint(10, 400), randint(10, 400)))
+Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),Point(randint(10, 400), randint(10, 400)))
 
     
 # rectangle = Rectangle(Point(randint(0, 400), randint(0, 400)),
