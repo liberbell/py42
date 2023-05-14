@@ -62,3 +62,6 @@ user_area = float(input("Guess rectangle area: "))
 
 print("Your point was inside rectangle: ", user_point.falls_in_rectangle(rectangle))
 print("Your area was off by: ", rectangle.area() - user_area)
+
+myturtle = turtle.Turtle()
+rectangle.draw(canvas=myturtle)
