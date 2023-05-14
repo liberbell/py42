@@ -28,7 +28,7 @@ class GuiRectangle(Rectangle):
     
     def draw(self, canvas):
         canvas.penup()
-        canvas.goto(50, 75)
+        canvas.goto(self.point1.x, self.point1.y)
 
         canvas.pendown()
         canvas.forward(100)
