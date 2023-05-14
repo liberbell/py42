@@ -1,5 +1,5 @@
 from random import randint
-from turtle import Turtle
+# from turtle import Turtle
 
 class Point:
 
