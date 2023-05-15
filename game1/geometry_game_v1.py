@@ -40,8 +40,6 @@ class GuiRectangle(Rectangle):
         canvas.left(90)
         canvas.forward(self.point2.y - self.point1.y)
 
-        turtle.done()
-
 class GuiPoint(Point):
 
     def draw(self, canvas, size=5, color="red"):
@@ -75,3 +73,4 @@ myturtle = turtle.Turtle()
 rectangle.draw(canvas=myturtle)
 
 user_point.draw(canvas=myturtle)
+turtle.done()
