@@ -44,9 +44,11 @@ class GuiRectangle(Rectangle):
 
 class GuiPoint(Point):
 
-    def draw(self, canvas):
+    def draw(self, canvas, size=5, color="red"):
         canvas.penup()
         canvas.goto(self.x, self.y)
+        canvas.pendown()
+        canvas.dot(size=size, color=color)
 
 # Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),Point(randint(10, 400), randint(10, 400)))
 
