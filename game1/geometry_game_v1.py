@@ -45,7 +45,8 @@ class GuiRectangle(Rectangle):
 class GuiPoint(Point):
 
     def draw(self, canvas):
-
+        canvas.penup()
+        canvas.goto(self.x, self.y)
 
 # Gui_rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),Point(randint(10, 400), randint(10, 400)))
 
@@ -71,4 +72,4 @@ print("Your area was off by: ", rectangle.area() - user_area)
 myturtle = turtle.Turtle()
 rectangle.draw(canvas=myturtle)
 
-user_point.draw()
+user_point.draw(canvas=myturtle.)
